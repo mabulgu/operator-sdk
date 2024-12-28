@@ -1,8 +1,9 @@
 module github.com/operator-framework/operator-sdk
 
-go 1.22.5
+go 1.22.10
 
 require (
+	github.com/SystemCraftsman/rust-operator-plugins v0.0.0-20241228224459-dac81426ee7b
 	github.com/blang/semver/v4 v4.0.0
 	github.com/fatih/structtag v1.1.0
 	github.com/go-logr/logr v1.4.2
@@ -11,8 +12,8 @@ require (
 	github.com/kr/text v0.2.0
 	github.com/markbates/inflect v1.0.4
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.9.0
-	github.com/onsi/ginkgo/v2 v2.20.2
-	github.com/onsi/gomega v1.34.2
+	github.com/onsi/ginkgo/v2 v2.21.0
+	github.com/onsi/gomega v1.35.1
 	github.com/operator-framework/ansible-operator-plugins v1.36.1
 	github.com/operator-framework/api v0.24.0
 	github.com/operator-framework/operator-lib v0.14.0
@@ -27,9 +28,9 @@ require (
 	github.com/spf13/viper v1.19.0
 	github.com/stretchr/testify v1.9.0
 	github.com/thoas/go-funk v0.8.0
-	golang.org/x/mod v0.21.0
+	golang.org/x/mod v0.22.0
 	golang.org/x/text v0.21.0
-	golang.org/x/tools v0.25.0
+	golang.org/x/tools v0.27.0
 	gomodules.xyz/jsonpatch/v3 v3.0.1
 	helm.sh/helm/v3 v3.15.4
 	k8s.io/api v0.30.5
@@ -38,10 +39,10 @@ require (
 	k8s.io/cli-runtime v0.30.5
 	k8s.io/client-go v0.30.5
 	k8s.io/kubectl v0.30.5
-	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0
+	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
 	sigs.k8s.io/controller-runtime v0.18.5
 	sigs.k8s.io/controller-tools v0.14.0
-	sigs.k8s.io/kubebuilder/v4 v4.1.1
+	sigs.k8s.io/kubebuilder/v4 v4.3.1
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -110,7 +111,7 @@ require (
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gobuffalo/envy v1.6.5 // indirect
-	github.com/gobuffalo/flect v1.0.2 // indirect
+	github.com/gobuffalo/flect v1.0.3 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-migrate/migrate/v4 v4.17.1 // indirect
@@ -122,7 +123,7 @@ require (
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/go-containerregistry v0.20.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/google/pprof v0.0.0-20240827171923-fa2c70bbbfe5 // indirect
+	github.com/google/pprof v0.0.0-20241029153458-d1b30febd7db // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/handlers v1.5.2 // indirect
@@ -228,7 +229,7 @@ require (
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/net v0.31.0 // indirect
 	golang.org/x/oauth2 v0.22.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
@@ -240,7 +241,7 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20240318140521-94a12d6c2237 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240401170217-c3f982113cda // indirect
 	google.golang.org/grpc v1.64.1 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
