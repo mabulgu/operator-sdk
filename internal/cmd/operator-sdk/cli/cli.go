@@ -29,6 +29,7 @@ import (
 	golangv4 "sigs.k8s.io/kubebuilder/v4/pkg/plugins/golang/v4"
 	grafanav1alpha "sigs.k8s.io/kubebuilder/v4/pkg/plugins/optional/grafana/v1alpha"
 
+	rustv1alpha "github.com/SystemCraftsman/rust-operator-plugins/pkg/plugins/rust/v1alpha"
 	ansiblev1 "github.com/operator-framework/ansible-operator-plugins/pkg/plugins/ansible/v1"
 	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/alpha/config3alphato3"
 	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/bundle"
@@ -120,6 +121,7 @@ func GetPluginsCLIAndRoot() (*cli.CLI, *cobra.Command) {
 			helmBundle,
 			grafanav1alpha.Plugin{},
 			deployImageBundle,
+			rustv1alpha.Plugin{},
 		),
 		cli.WithDefaultPlugins(cfgv3.Version, gov4Bundle),
 		cli.WithDefaultProjectVersion(cfgv3.Version),
