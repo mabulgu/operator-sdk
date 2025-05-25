@@ -3,7 +3,7 @@ module github.com/operator-framework/operator-sdk
 go 1.23.4
 
 require (
-	github.com/SystemCraftsman/rust-operator-plugins v0.1.0-alpha.1
+	github.com/SystemCraftsman/rust-operator-plugins v0.1.0-alpha.2
 	github.com/blang/semver/v4 v4.0.0
 	github.com/fatih/structtag v1.2.0
 	github.com/go-logr/logr v1.4.2
