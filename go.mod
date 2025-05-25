@@ -3,7 +3,7 @@ module github.com/operator-framework/operator-sdk
 go 1.23.4
 
 require (
-	github.com/SystemCraftsman/rust-operator-plugins v0.0.0-20250302164002-d379761c39df
+	github.com/SystemCraftsman/rust-operator-plugins v0.1.0-alpha.1
 	github.com/blang/semver/v4 v4.0.0
 	github.com/fatih/structtag v1.2.0
 	github.com/go-logr/logr v1.4.2
@@ -42,7 +42,7 @@ require (
 	k8s.io/utils v0.0.0-20241210054802-24370beab758
 	sigs.k8s.io/controller-runtime v0.19.7
 	sigs.k8s.io/controller-tools v0.16.5
-	sigs.k8s.io/kubebuilder/v4 v4.5.1
+	sigs.k8s.io/kubebuilder/v4 v4.2.0
 	sigs.k8s.io/yaml v1.4.0
 )
 
